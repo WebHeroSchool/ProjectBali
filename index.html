@@ -2,39 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>World of travel</title>
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="background">
-      <div class="wrapper">
-        <header class="header">
-          <div class="logo"></div>
-          <nav class="menu">
-            <a class="menu__item" href="#">Start</a>
-            <a class="menu__item" href="#">Services</a>
-            <a class="menu__item" href="#">About</a>
-            <a class="menu__item" href="#">Blog</a>
-            <a class="menu__item" href="#">Contact us</a>
-          </nav>
-        </header>
-        <section class="main-section">
-          <main class="main-content">
-            <h1 class="main-content__title">Bali</h1>
-            <h2 class="main-content__subtitle">Indonesia</h2>
-            <p class="main-content__description">
-              Best Bali travel guide with great tips. Book hotels and villas, explore the best spas, events, Bali temples, scuba centers, and activities.
-            </p>
-            <a class="main-content__button" href="#">Book travel</a>
-          </main>
-          <div class="image-content">
-            <img class="image-content__one" src="" alt=""></img>
-            <img class="image-content__two" scr="" alt=""></img>
-            <img class="image-content__three" scr="" alt=""></img>
-          </div>
-        </section>
+    <header class="header">
+      <input type="checkbox" id="checkbox"/>
+      <img class="logo" src="img/logo.svg" alt=""></img>
+      <label class="menu__burger" for="checkbox">
+        <span></span>
+      </label>
+      <nav class="menu">
+        <a class="menu__item" href="#">Start</a>
+        <a class="menu__item" href="#">Services</a>
+        <a class="menu__item" href="#">About</a>
+        <a class="menu__item" href="#">Blog</a>
+        <a class="menu__item" href="#">Contact&nbsp;us</a>
+      </nav>
+    </header>
+    <section class="main-section">
+      <main class="main-content">
+        <h1 class="main-content__title">Bali</h1>
+        <h2 class="main-content__subtitle">Indonesia</h2>
+        <p class="main-content__description">
+          Best&nbsp;Bali&nbsp;travel&nbsp;guide&nbsp;with&nbsp;great tips.&nbsp;Book&nbsp;hotels&nbsp;and villas,&nbsp;explore the&nbsp;best&nbsp;spas,&nbsp;events,&nbsp;Bali&nbsp;temples,<br/>scuba centers, and activities.
+        </p>
+        <a class="main-content__button" href="#">Book travel</a>
+      </main>
+      <div class="gallery">
+        <img class="gallery__bali gallery__bali_one" src="img/balione.jpg" alt=""></img>
+        <img class="gallery__bali gallery__bali_two" src="img/balitwo.jpg" alt=""></img>
+        <img class="gallery__bali gallery__bali_three" src="img/balithree.jpg" alt=""></img>
+        <img class="gallery__bali gallery__bali_narrow" src="img/bali.jpg" alt=""></img>
       </div>
-    </div>
+    </section>
   </body>
 </html>
